@@ -17,3 +17,7 @@ This n8n community node allows querying [FastGPT by Kagi](https://help.kagi.com/
 ### 0.1.0
 
 Initial node version
+
+### 0.1.1
+
+Fix path to node in package.json

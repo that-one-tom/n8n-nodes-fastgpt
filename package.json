@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-fastgpt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This n8n community node allows querying FastGPT by Kagi, using powerful LLMs to answer user queries running a full search engine underneath.",
   "keywords": [
     "n8n-community-node-package",
@@ -37,7 +37,7 @@
       "dist/credentials/KagiApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/FastGpt.node.js"
+      "dist/nodes/FastGpt/FastGpt.node.js"
     ]
   },
   "devDependencies": {
