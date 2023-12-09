@@ -1,0 +1,21 @@
+{
+	"node": "n8n-nodes-base.FastGpt",
+	"nodeVersion": "0.1",
+	"codexVersion": "0.1",
+	"categories": [
+		"Utility"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/that-one-tom/n8n-nodes-fastgpt/blob/master/README.md"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/that-one-tom/n8n-nodes-fastgpt/blob/master/README.md"
+			}
+		]
+	},
+    "alias": ["Kagi", "GPT"]
+}

@@ -1,19 +1,23 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-fastgpt",
   "version": "0.1.0",
-  "description": "",
+  "description": "This n8n community node allows querying FastGPT by Kagi, using powerful LLMs to answer user queries running a full search engine underneath.",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "kagi",
+    "fastgpt",
+    "n8n",
+    "ai"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Thomas Martens ",
+    "email": "thomas@thomasmartens.eu"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/that-one-tom/n8n-nodes-fastgpt.git"
   },
   "main": "index.js",
   "scripts": {
@@ -28,14 +32,12 @@
     "dist"
   ],
   "n8n": {
-    "n8nNodesApiVersion": 1,
+    "n8nNodesApiVersion": 0.1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/KagiApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/FastGpt.node.js"
     ]
   },
   "devDependencies": {
