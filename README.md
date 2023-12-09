@@ -1,6 +1,6 @@
 # n8n-nodes-fastgpt
 
-This n8n community node allows querying [FastGPT by Kagi}(https://help.kagi.com/kagi/api/fastgpt.html).
+This n8n community node allows querying [FastGPT by Kagi](https://help.kagi.com/kagi/api/fastgpt.html).
 
 ## Screenshot
 
